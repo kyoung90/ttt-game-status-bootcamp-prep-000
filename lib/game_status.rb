@@ -34,6 +34,7 @@ def won?(board)
 end
 
 def full?(board)
-  board.all? do 
+  board.all? do |ele|
+    ele == "X" || ele == "O"
   end
 end
