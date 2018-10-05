@@ -38,3 +38,7 @@ def full?(board)
     ele == "X" || ele == "O"
   end
 end
+
+def draw?(board)
+  if(full?(board) && !won?(board))
+end
